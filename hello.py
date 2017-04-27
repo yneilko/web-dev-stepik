@@ -1,5 +1,5 @@
 #wsgi example app
-from cgi import parse_qs
+from urlparse import parse_qs
 
 def application(environ, start_responce):
 
